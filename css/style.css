@@ -1,0 +1,93 @@
+text {
+    font-size: 15px;
+    text-anchor: middle;
+    fill: #050300;
+  }
+   text {
+      font-family: sans-serif;
+    }
+
+    .bar {
+      fill: rgb(92, 90, 198);
+    }
+
+    .bar:hover {
+      fill: pink;
+    }
+
+    .highlight{
+      fill:pink;
+      cursor: pointer;
+    }
+    #tooltip{
+      position: absolute;
+      width: 200px;
+      height: auto;
+      padding: 10px;
+      background-color: #e7bc91;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      -webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+      -moz-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+      box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+      pointer-events: none;
+      text-align: center;
+    }
+    #tooltip.hidden{
+      display: none;
+    }
+    #tooltip p{
+      margin: 0;
+      font-family: sans-serif;
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    .line {
+      fill: none;
+      stroke: steelblue;
+      stroke-width: 2px;
+  }
+
+  .area {
+      fill: lightsteelblue;
+  }
+ h3{
+  text-align: center;
+  font-size: 20px;
+ }
+  
+  circle {
+    fill: #ff6be9;
+    stroke: rgb(92, 90, 198);
+    stroke-width: 1px;
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#ff6be9;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(4, 0, 252);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(146, 210, 255);
+  }
